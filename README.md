@@ -1,6 +1,6 @@
 # TVC Governance Vote
 
-Developed by Zantetsu from Shinobi Systems, [Timely Vote Credots](https://docs.solanalabs.com/proposals/timely-vote-credits) has been [proposed](https://forum.solana.com/t/proposal-for-enabling-the-timely-vote-credits-mechanism-on-solana-mainnet/1179) for governance voting.
+Developed by Zantetsu from Shinobi Systems, [Timely Vote Credits](https://docs.solanalabs.com/proposals/timely-vote-credits) has been [proposed](https://forum.solana.com/t/proposal-for-enabling-the-timely-vote-credits-mechanism-on-solana-mainnet/1179) for governance voting.
 
 **All relevant addresses etc shared at the bottom of this document**
 
