@@ -25,8 +25,6 @@ Usage:
 bash ./check_stake_weights.sh [OPTIONAL_RPC_ADDRESS] ./feature-proposal.csv
 ```
 
-Some users have reported a 1 lamport difference for the node identity `CW9C7HBwAMgqNdXkNgFg9Ujr3edR2Ab9ymEuQnVacd1A` while others report a match, this is likely a rounding issue but given the negligible impact can be accepted for this vote.
-
 ## Verifying token distribution
 Immediately after token distribution takes place on Sunday 31 March 2024 at approximately 1600 UTC (will be confirmed shortly before on Discord on the #vote-timely-vote-credits channel) the balances of all accounts can be verified with the following command:
 
