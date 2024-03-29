@@ -53,6 +53,7 @@ JgsupiMjcJgxLJfdWpYLJt3ivGdsyPuEumEYuFNDwqq
 ```
 
 **Voting Addresses**
+
 Send tokens to these addresses to cast your vote:
 ```
 YES 	97z9tVZayd5LKYsD5eTfWBQVGeQMiVqKxoL8izZ34TCq
