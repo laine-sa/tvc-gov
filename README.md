@@ -64,6 +64,11 @@ cat feature-proposal.csv | sort | shasum
 JgsupiMjcJgxLJfdWpYLJt3ivGdsyPuEumEYuFNDwqq
 ```
 
+**Distribution Fee Payer**
+```
+Av3ZqfeAGQHwCYvDaC3PSENFdfbBEJcUG89NCa5kA8pi
+```
+
 **Voting Addresses**
 
 Send tokens to these addresses to cast your vote:
