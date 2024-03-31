@@ -38,14 +38,10 @@ As soon as any validators move their tokens the above won't work. The distributi
 
 To cast a vote, validators should transfer all their voting tokens to the destination address based on their choise of YES, NO or ABSTAIN (addresses shared below). You need access to the identity keypair .json file as well as the `spl-token` binary (Bundled with the Solana CLI or can be built from the [Solana Program Library](https://github.com/solana-labs/solana-program-library) with `cargo b -r --bin spl-token).
 
-Look up your token account:
-```
-spl-token --owner ~/validator-keypair.json accounts solana-tokens tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg
-```
 
 Cast your vote:
 ```
-spl-token --owner ~/validator-keypair.json transfer tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg ALL <VOTE_CHOICE_ADDRESS>
+spl-token transfer tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg ALL <VOTE_CHOICE_ADDRESS> --owner <VALIDATOR_IDENTITY.JSON>
 ```
 
 ## Important hashes and addresses
