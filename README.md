@@ -61,7 +61,7 @@ cat feature-proposal.csv | sort | shasum
 
 **Token Mint Address**
 ```
-JgsupiMjcJgxLJfdWpYLJt3ivGdsyPuEumEYuFNDwqq
+tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg
 ```
 
 **Distribution Fee Payer**
