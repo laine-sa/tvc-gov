@@ -45,7 +45,7 @@ spl-token --owner ~/validator-keypair.json accounts solana-tokens tvcUX2gkQWsPYK
 
 Cast your vote:
 ```
-spl-token --owner ~/validator-keypair.json transfer <VOTE_CHOICE_ADDRESS> ALL tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg
+spl-token --owner ~/validator-keypair.json transfer tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg ALL <VOTE_CHOICE_ADDRESS>
 ```
 
 ## Important hashes and addresses
