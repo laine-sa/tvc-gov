@@ -29,14 +29,24 @@ bash ./check_stake_weights.sh [OPTIONAL_RPC_ADDRESS] ./feature-proposal.csv
 Immediately after token distribution takes place on Sunday 31 March 2024 at approximately 1600 UTC (will be confirmed shortly before on Discord on the #vote-timely-vote-credits channel) the balances of all accounts can be verified with the following command:
 
 ```
-solana-tokens spl-token-balances --mint JgsupiMjcJgxLJfdWpYLJt3ivGdsyPuEumEYuFNDwqq --input-csv feature-proposal.csv
+solana-tokens spl-token-balances --mint tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg --input-csv feature-proposal.csv
 ```
 
 As soon as any validators move their tokens the above won't work. The distribution commands and execution will be screen recorded and uploaded to this repository as well.
 
 ## Casting a vote
 
-This section will be updated once the distribution is complete
+To cast a vote, validators should transfer all their voting tokens to the destination address based on their choise of YES, NO or ABSTAIN (addresses shared below). You need access to the identity keypair .json file as well as the `spl-token` binary (Bundled with the Solana CLI or can be built from the [Solana Program Library](https://github.com/solana-labs/solana-program-library) with `cargo b -r --bin spl-token).
+
+Look up your token account:
+```
+spl-token --owner ~/validator-keypair.json accounts solana-tokens tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg
+```
+
+Cast your vote:
+```
+spl-token --owner ~/validator-keypair.json transfer <VOTE_CHOICE_ADDRESS> ALL tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg
+```
 
 ## Important hashes and addresses
 
