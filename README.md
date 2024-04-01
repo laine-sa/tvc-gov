@@ -1,5 +1,7 @@
 # TVC Governance Vote
 
+**Voting in progress, [click here](#casting-a-vote) for voting instructions**
+
 Developed by Zantetsu from Shinobi Systems, [Timely Vote Credits](https://docs.solanalabs.com/proposals/timely-vote-credits) has been [proposed](https://forum.solana.com/t/proposal-for-enabling-the-timely-vote-credits-mechanism-on-solana-mainnet/1179) for governance voting.
 
 **All relevant addresses etc shared at the bottom of this document**
@@ -42,6 +44,15 @@ To cast a vote, validators should transfer all their voting tokens to the destin
 Cast your vote:
 ```
 spl-token transfer tvcUX2gkQWsPYK2Uq7DeuX9ZJTFF9V3BGJ2isfLMgrg ALL <VOTE_CHOICE_ADDRESS> --owner <VALIDATOR_IDENTITY.JSON>
+```
+
+**Voting Addresses**
+
+Send tokens to these addresses to cast your vote:
+```
+YES     97z9tVZayd5LKYsD5eTfWBQVGeQMiVqKxoL8izZ34TCq
+NO      BKfP2dcDkCYBxZHBgGu8VRMudrPPPA1pdigy1LqSV5W6
+ABSTAIN 5TWEPR2ATiHtAQnaZKdKdBFwqCm35deqiSbkiEmyshvk
 ```
 
 ## Important hashes and addresses
